@@ -13,5 +13,5 @@ class TokenSerializer(serializers.ModelSerializer):
 
     @classmethod
     def get_token(cls, user):
-        token = AccessToken.for_user(user)
-        return token
+        toke = AccessToken.for_user(user)
+        return toke
