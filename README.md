@@ -24,6 +24,8 @@ Cоздать и активировать виртуальное окружен�
 `python3 manage.py migrate` \
 `python3 manage.py makemigrations`
 
+
+
 Запустить проект:\
 `python3 manage.py runserver` 
 
