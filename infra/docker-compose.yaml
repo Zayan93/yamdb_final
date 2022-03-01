@@ -12,8 +12,8 @@ services:
     image: zayan93/api_yamdb:latest
     restart: always
     volumes:
-      - static_value:/app/api_yamdb/static/
-      - media_value:/app/api_yamdb/media/
+      - static_value:/code/static/
+      - media_value:/code/media/
     depends_on:
       - db
     env_file:
